@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('./beach2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(15, 14, 14);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.signup-container {
+    background: rgba(106, 107, 103, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.signup-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-button:hover {
+    background-color: #333;
+}

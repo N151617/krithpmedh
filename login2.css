@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('./beach2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(15, 13, 13);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.login-container {
+    background: rgba(87, 87, 83, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.login-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #333;
+}
+
+.additional-text {
+    margin-top: 20px;
+}
+
+.additional-text p {
+    margin: 0;
+}
+
+.additional-text a {
+    color: rgb(14, 12, 12);
+    text-decoration: underline;
+}
+
+.additional-text a:hover {
+    color: #0c0b0b;
+}
